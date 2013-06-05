@@ -116,7 +116,7 @@ jq(document).ready(function(){
         localeChain: 'en_US',
         swfinstall: '%(portal_url)s/++resource++pageturner.resources/playerProductInstall.swf'
         }});
-    jq('#pageturner').show().width(%(width)s).height(%(height)s);
+    jq('#pageturner').show().height(%(height)s);
 });
 """ % {
     'context_url': self.context.absolute_url(),
